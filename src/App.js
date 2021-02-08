@@ -43,17 +43,15 @@ function App() {
 								Kontak
 							</a>
 						</Link>
+						<Link to='/galeri' class='nav-item'>
+							<a class='nav-link text-light' href='#'>
+								Galeri
+							</a>
+						</Link>
 					</ul>
 				</div>
 			</nav>
-			<div
-				class='p-5 mx-auto mt-5'
-				style={{ backgroundColor: "rgba(63, 191, 191, .8)" }}
-			>
-				<h1 class='alert-heading text-center '>
-					<Utama />
-				</h1>
-			</div>
+			<Utama />
 		</div>
 	)
 }

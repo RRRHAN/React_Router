@@ -1,8 +1,9 @@
 import React, { Component } from "react"
+import Container from "./container"
 
 export class beranda extends Component {
 	render() {
-		return <p>Ini Beranda</p>
+		return <Container>Ini Beranda</Container>
 	}
 }
 
