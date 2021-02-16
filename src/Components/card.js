@@ -33,6 +33,13 @@ export class card extends Component {
 							>
 								Hapus
 							</button>
+							{/* button untuk menambah ke keranjang belanja */}
+							<button
+								className='btn btn-sm btn-success m-1'
+								onClick={this.props.onCart}
+							>
+								Tambahkan ke keranjang belanja
+							</button>
 						</div>
 					</div>
 				</div>

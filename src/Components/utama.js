@@ -6,6 +6,7 @@ import tentangsaya from "./tentangsaya"
 import karya from "./karya"
 import kontak from "./kontak"
 import galeri from "./galeri"
+import cart from "./cart"
 
 const utama = () => (
 	<Switch>
@@ -14,6 +15,7 @@ const utama = () => (
 		<Route path='/karya' component={karya} />
 		<Route path='/kontak' component={kontak} />
 		<Route path='/galeri' component={galeri} />
+		<Route path='/cart' component={cart} />
 	</Switch>
 )
 

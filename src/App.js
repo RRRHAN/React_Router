@@ -1,4 +1,3 @@
-import logo from "./logo.svg"
 import Utama from "./Components/utama"
 import { Link } from "react-router-dom"
 import "./App.css"
@@ -46,6 +45,11 @@ function App() {
 						<Link to='/galeri' class='nav-item'>
 							<a class='nav-link text-light' href='#'>
 								Galeri
+							</a>
+						</Link>
+						<Link to='/cart' class='nav-item'>
+							<a class='nav-link text-light' href='#'>
+								Cart
 							</a>
 						</Link>
 					</ul>
